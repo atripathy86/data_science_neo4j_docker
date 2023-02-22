@@ -53,9 +53,15 @@ docker-compose down
 
 
  - Ready to Run Graph Data Science notebooks from https://neo4j.com/docs/graph-data-science-client/current/tutorials/tutorials/
-  | Product recommendations with kNN based on FastRP embeddings | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/fastrp-and-knn.ipynb | 
-  | Exporting from GDS and running GNN with PyG | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/import-sample-export-gnn.ipynb |
-  | Load data to a projected graph via graph construction | https://neo4j.com/docs/graph-data-science-client/current/tutorials/load-data-via-graph-construction/ | 
-  | Machine learning pipelines: Node classification | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/ml-pipelines-node-classification.ipynb |
-  | Node regression with subgraph and sampling projections | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/node-regression-with-subgraph-and-graph-sample.ipynb |
-  | Heterogeneous Node Classification with HashGNN and Autotuning | https://github.com/neo4j/graph-data-science-client/tree/1.6/examples/heterogeneous-node-classification-with-hashgnn.ipynb | 
+  1.  Product recommendations with kNN based on FastRP embeddings
+      https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/fastrp-and-knn.ipynb
+  2. Exporting from GDS and running GNN with PyG
+      https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/import-sample-export-gnn.ipynb
+  3. Load data to a projected graph via graph construction 
+      https://neo4j.com/docs/graph-data-science-client/current/tutorials/load-data-via-graph-construction/
+  4. Machine learning pipelines: Node classification
+      https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/ml-pipelines-node-classification.ipynb
+  5. Node regression with subgraph and sampling projections 
+      https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/node-regression-with-subgraph-and-graph-sample.ipynb
+  6. Heterogeneous Node Classification with HashGNN and Autotuning 
+      https://github.com/neo4j/graph-data-science-client/tree/1.6/examples/heterogeneous-node-classification-with-hashgnn.ipynb | 
