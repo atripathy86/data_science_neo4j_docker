@@ -16,7 +16,7 @@ docker-compose build
 Then start the container:
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 This will start up both a Jupyter Lab notebook at `localhost:8888` (note that there will be a token associated with this which you will need to grab as that container is starting) as well as the Neo4j browser at `localhost:7474`.  This are both configurable to whatever port you want.
@@ -47,3 +47,15 @@ docker-compose down
   - [Graph Data Science (GDS) Library](https://neo4j.com/developer/graph-data-science/)
   - [Python Driver API Docs](https://neo4j.com/docs/api/python-driver/current/)
 
+- Additional References
+  - https://github.com/neo4j-examples/nlp-knowledge-graph
+  - https://towardsdatascience.com/get-going-with-neo4j-and-jupyter-lab-through-docker-a1994e0e95c6
+
+
+ - Ready to Run Graph Data Science notebooks from https://neo4j.com/docs/graph-data-science-client/current/tutorials/tutorials/
+  | Product recommendations with kNN based on FastRP embeddings | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/fastrp-and-knn.ipynb | 
+  | Exporting from GDS and running GNN with PyG | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/import-sample-export-gnn.ipynb |
+  | Load data to a projected graph via graph construction | https://neo4j.com/docs/graph-data-science-client/current/tutorials/load-data-via-graph-construction/ | 
+  | Machine learning pipelines: Node classification | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/ml-pipelines-node-classification.ipynb |
+  | Node regression with subgraph and sampling projections | https://github.com/neo4j/graph-data-science-client/blob/1.6/examples/node-regression-with-subgraph-and-graph-sample.ipynb |
+  | Heterogeneous Node Classification with HashGNN and Autotuning | https://github.com/neo4j/graph-data-science-client/tree/1.6/examples/heterogeneous-node-classification-with-hashgnn.ipynb | 

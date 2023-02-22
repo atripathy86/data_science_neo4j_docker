@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#neo4j plugins which are included in image by default
+./plugins/apoc.jar
+./plugins/n10s.jar
+
 # C extensions
 *.so
 
